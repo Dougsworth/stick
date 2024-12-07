@@ -57,7 +57,7 @@ export default {
   },
   computed: {
     stickHolder() {
-      return this.currentMonth % 2 === 0 ? "Marika" : "Douglas";
+      return this.currentMonth % 2 === 0 ? "Marika" : "Dougydballstripz";
     },
     currentMonthName() {
       return this.months[this.currentMonth];
